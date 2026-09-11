@@ -1,0 +1,33 @@
+{
+  "name": "cashflow-engine",
+  "version": "0.1.0",
+  "description": "Deterministic project cash flow engine in pure TypeScript: monthly schedules, IRR, NPV, payback, working capital, break-even and sensitivity analysis.",
+  "license": "MIT",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "files": ["dist", "README.md", "LICENSE"],
+  "keywords": [
+    "finance", "cash-flow", "irr", "npv", "payback",
+    "working-capital", "break-even", "sensitivity-analysis", "typescript"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "example": "tsx examples/managed-service-contract.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  }
+}
