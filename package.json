@@ -12,12 +12,24 @@
       "default": "./dist/index.js"
     }
   },
-  "files": ["dist", "README.md", "LICENSE"],
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
   "keywords": [
-    "finance", "cash-flow", "irr", "npv", "payback",
-    "working-capital", "break-even", "sensitivity-analysis", "typescript"
+    "finance",
+    "cash-flow",
+    "irr",
+    "npv",
+    "payback",
+    "working-capital",
+    "break-even",
+    "sensitivity-analysis",
+    "typescript"
   ],
   "scripts": {
+    "prepare": "npm run build",
     "build": "tsc -p tsconfig.build.json",
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
