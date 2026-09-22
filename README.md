@@ -7,7 +7,7 @@ payback, working capital, break-even and sensitivity analysis.
 No framework, no I/O, no database, no opinion about your industry's numbers.
 Every rate, price and cost is an input.
 
-[![CI](https://github.com/OWNER/cashflow-engine/actions/workflows/ci.yml/badge.svg)](https://github.com/OWNER/cashflow-engine/actions/workflows/ci.yml)
+[![CI](https://github.com/jamejialicona-cmyk/cashflow-engine/actions/workflows/ci.yml/badge.svg)](https://github.com/jamejialicona-cmyk/cashflow-engine/actions/workflows/ci.yml)
 
 ---
 
