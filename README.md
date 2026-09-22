@@ -33,8 +33,11 @@ code with a test suite. The data is an argument.
 ## Install
 
 ```bash
-npm install cashflow-engine
+npm install github:jamejialicona-cmyk/cashflow-engine
 ```
+
+Not published to the npm registry. Installing from GitHub runs the `prepare`
+script, which builds `dist/` on install.
 
 ## Usage
 
